@@ -1,0 +1,88 @@
+Game date	Home	Home score	Visitor	Visitor score
+2018-11-01	Charlotte Hornets	107	Oklahoma City Thunder	111
+2018-11-01	Cleveland Cavaliers	91	Denver Nuggets	110
+2018-11-01	Atlanta Hawks	115	Sacramento Kings	146
+2018-11-02	Orlando Magic	95	LA Clippers	120
+2018-11-02	Brooklyn Nets	111	Houston Rockets	119
+2018-11-02	Washington Wizards	111	Oklahoma City Thunder	134
+2018-11-02	Chicago Bulls	105	Indiana Pacers	107
+2018-11-02	Dallas Mavericks	106	New York Knicks	118
+2018-11-02	Utah Jazz	100	Memphis Grizzlies	110
+2018-11-02	Phoenix Suns	98	Toronto Raptors	107
+2018-11-03	Chicago Bulls	88	Houston Rockets	96
+2018-11-03	Portland Trail Blazers	110	Los Angeles Lakers	114
+2018-11-04	San Antonio Spurs	110	Orlando Magic	117
+2018-11-04	Los Angeles Lakers	107	Toronto Raptors	121
+2018-11-05	Detroit Pistons	115	Miami Heat	120
+2018-11-05	Indiana Pacers	94	Houston Rockets	98
+2018-11-05	New York Knicks	115	Chicago Bulls	116
+2018-11-05	Utah Jazz	111	Toronto Raptors	124
+2018-11-06	Phoenix Suns	82	Brooklyn Nets	104
+2018-11-07	Cleveland Cavaliers	86	Oklahoma City Thunder	95
+2018-11-07	Orlando Magic	96	Detroit Pistons	103
+2018-11-07	Atlanta Hawks	107	New York Knicks	112
+2018-11-07	Indiana Pacers	94	Philadelphia 76ers	100
+2018-11-07	Sacramento Kings	105	Toronto Raptors	114
+2018-11-08	Phoenix Suns	109	Boston Celtics	116
+2018-11-08	Golden State Warriors	111	Milwaukee Bucks	134
+2018-11-09	Atlanta Hawks	109	Detroit Pistons	124
+2018-11-09	Miami Heat	102	Indiana Pacers	110
+2018-11-09	Denver Nuggets	110	Brooklyn Nets	112
+2018-11-10	Miami Heat	110	Washington Wizards	116
+2018-11-10	Sacramento Kings	86	Los Angeles Lakers	101
+2018-11-11	Detroit Pistons	103	Charlotte Hornets	113
+2018-11-11	New York Knicks	89	Orlando Magic	115
+2018-11-11	Denver Nuggets	114	Milwaukee Bucks	121
+2018-11-12	Miami Heat	114	Philadelphia 76ers	124
+2018-11-12	Chicago Bulls	98	Dallas Mavericks	103
+2018-11-12	Memphis Grizzlies	88	Utah Jazz	96
+2018-11-13	Denver Nuggets	99	Houston Rockets	109
+2018-11-14	Brooklyn Nets	107	Miami Heat	120
+2018-11-14	Milwaukee Bucks	113	Memphis Grizzlies	116
+2018-11-16	Washington Wizards	104	Brooklyn Nets	115
+2018-11-17	Brooklyn Nets	119	LA Clippers	127
+2018-11-17	Charlotte Hornets	119	Philadelphia 76ers	122
+2018-11-17	Boston Celtics	86	Utah Jazz	98
+2018-11-17	Chicago Bulls	83	Toronto Raptors	122
+2018-11-17	Phoenix Suns	100	Oklahoma City Thunder	110
+2018-11-18	Minnesota Timberwolves	87	Memphis Grizzlies	100
+2018-11-18	Miami Heat	97	Los Angeles Lakers	113
+2018-11-18	Washington Wizards	109	Portland Trail Blazers	119
+2018-11-19	Atlanta Hawks	119	LA Clippers	127
+2018-11-20	Orlando Magic	91	Toronto Raptors	93
+2018-11-20	Miami Heat	92	Brooklyn Nets	104
+2018-11-20	New York Knicks	114	Portland Trail Blazers	118
+2018-11-21	Atlanta Hawks	108	Toronto Raptors	124
+2018-11-21	Boston Celtics	109	New York Knicks	117
+2018-11-21	Cleveland Cavaliers	105	Los Angeles Lakers	109
+2018-11-21	Minnesota Timberwolves	101	Denver Nuggets	103
+2018-11-21	San Antonio Spurs	103	Memphis Grizzlies	104
+2018-11-21	Utah Jazz	110	Sacramento Kings	119
+2018-11-21	Golden State Warriors	95	Oklahoma City Thunder	123
+2018-11-23	Brooklyn Nets	102	Minnesota Timberwolves	112
+2018-11-23	Atlanta Hawks	96	Boston Celtics	114
+2018-11-23	Philadelphia 76ers	112	Cleveland Cavaliers	121
+2018-11-23	Indiana Pacers	100	San Antonio Spurs	111
+2018-11-23	Chicago Bulls	96	Miami Heat	103
+2018-11-23	Milwaukee Bucks	114	Phoenix Suns	116
+2018-11-24	Oklahoma City Thunder	98	Denver Nuggets	105
+2018-11-25	Los Angeles Lakers	104	Orlando Magic	108
+2018-11-25	Brooklyn Nets	125	Philadelphia 76ers	127
+2018-11-25	Memphis Grizzlies	98	New York Knicks	103
+2018-11-25	Sacramento Kings	112	Utah Jazz	133
+2018-11-25	Portland Trail Blazers	100	LA Clippers	104
+2018-11-26	Cleveland Cavaliers	95	Minnesota Timberwolves	102
+2018-11-26	Chicago Bulls	107	San Antonio Spurs	108
+2018-11-26	New Orleans Pelicans	107	Boston Celtics	124
+2018-11-26	Utah Jazz	88	Indiana Pacers	121
+2018-11-27	Miami Heat	113	Atlanta Hawks	115
+2018-11-27	Memphis Grizzlies	114	Toronto Raptors	122
+2018-11-27	Phoenix Suns	104	Indiana Pacers	109
+2018-11-28	Brooklyn Nets	91	Utah Jazz	101
+2018-11-28	Houston Rockets	108	Dallas Mavericks	128
+2018-11-29	Sacramento Kings	121	LA Clippers	133
+2018-11-30	Charlotte Hornets	111	Utah Jazz	119
+2018-11-30	Brooklyn Nets	125	Memphis Grizzlies	131
+2018-11-30	San Antonio Spurs	105	Houston Rockets	136
+2018-11-30	Phoenix Suns	85	Orlando Magic	99
+2018-11-30	Portland Trail Blazers	112	Denver Nuggets	113
