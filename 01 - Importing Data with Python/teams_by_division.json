@@ -1,0 +1,44 @@
+{
+    "Atlantic": [
+        "Boston Celtics",
+        "Brooklyn Nets",
+        "New York Knicks",
+        "Philadelphia 76ers",
+        "Toronto Raptors"
+    ],
+    "Central": [
+        "Chicago Bulls",
+        "Cleveland Cavaliers",
+        "Detroit Pistons",
+        "Indiana Pacers",
+        "Milwaukee Bucks"
+    ],
+    "Northwest": [
+        "Denver Nuggets",
+        "Minnesota Timberwolves",
+        "Oklahoma City Thunder",
+        "Portland Trail Blazers",
+        "Utah Jazz"
+    ],
+    "Pacific": [
+        "Golden State Warriors",
+        "LA Clippers",
+        "Los Angeles Lakers",
+        "Phoenix Suns",
+        "Sacramento Kings"
+    ],
+    "Southeast": [
+        "Atlanta Hawks",
+        "Charlotte Hornets",
+        "Miami Heat",
+        "Orlando Magic",
+        "Washington Wizards"
+    ],
+    "Southwest": [
+        "Dallas Mavericks",
+        "Houston Rockets",
+        "Memphis Grizzlies",
+        "New Orleans Pelicans",
+        "San Antonio Spurs"
+    ]
+}
