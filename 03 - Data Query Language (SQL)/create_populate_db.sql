@@ -1,55 +1,62 @@
 -- Sample library database for use with Pluralsight guide
 
+DROP DATABASE IF EXISTS library;
 CREATE DATABASE library;
 
 USE library;
 
-CREATE TABLE IF NOT EXISTS customers (
+DROP TABLE IF EXISTS customers;
+CREATE TABLE customers (
     customer_id INT AUTO_INCREMENT,
     customer_name VARCHAR(50) NOT NULL,
     customer_address VARCHAR(100) NOT NULL,
     PRIMARY KEY (customer_id)
 );
 
+DROP TABLE IF EXISTS publishers;
 CREATE TABLE IF NOT EXISTS publishers (
     publisher_id INT AUTO_INCREMENT,
     publisher_name VARCHAR(50) NOT NULL,
     PRIMARY KEY (publisher_id)
 );
 
+DROP TABLE IF EXISTS authors;
 CREATE TABLE IF NOT EXISTS authors (
     author_id INT AUTO_INCREMENT,
     author_name VARCHAR(50) NOT NULL,
     PRIMARY KEY (author_id)
 );
 
+DROP TABLE IF EXISTS librarians;
 CREATE TABLE IF NOT EXISTS librarians (
     librarian_id INT AUTO_INCREMENT,
     librarian_name VARCHAR(50),
     PRIMARY KEY (librarian_id)
 );
 
+DROP TABLE IF EXISTS books;
 CREATE TABLE IF NOT EXISTS books (
     book_id INT AUTO_INCREMENT,
     book_name VARCHAR(50) NOT NULL,
     book_isbn VARCHAR(20) NOT NULL,
     book_edition INT NOT NULL,
-    book_publisher_id INT,
-    book_author_id INT,
     PRIMARY KEY (book_id),
+    author_id INT,
     FOREIGN KEY fk_author_id (author_id) REFERENCES authors (author_id),
+    publisher_id INT,
     FOREIGN KEY fk_publisher_id (publisher_id) REFERENCES publishers (publisher_id)
 );
 
+DROP TABLE IF EXISTS loans;
 CREATE TABLE IF NOT EXISTS loans (
     loan_date DATETIME NOT NULL,
-    loan_is_active BIT DEFAULT 1,
+    loan_is_active BOOLEAN NOT NULL,
     customer_id INT,
+    FOREIGN KEY fk_customer_id (customer_id) REFERENCES customers (customer_id),
     book_id INT,
+    FOREIGN KEY fk_book_id (book_id) REFERENCES books (book_id),
     librarian_id INT,
-    FOREIGN KEY fk_customer_id REFERENCES customers (customer_id),
-    FOREIGN KEY fk_book_id REFERENCES books (book_id),
-    FOREIGN KEY fk_librarian_id REFERENCES librarians (librarian_id)
+    FOREIGN KEY fk_librarian_id (librarian_id) REFERENCES librarians (librarian_id)
 );
 
 INSERT INTO customers (customer_name, customer_address) VALUES
@@ -85,7 +92,7 @@ INSERT INTO librarians (librarian_name) VALUES
 ('Tom White'),
 ('Kate Bilden');
 
-INSERT INTO books (book_name, book_isbn, book_edition, book_publisher_id, book_author_id) VALUES
+INSERT INTO books (book_name, book_isbn, book_edition, publisher_id, author_id) VALUES
 ('Pilgrim Souls', '9780684843117', 1, 1, 1),
 ('Pilgrim Souls', '9780684843117', 2, 1, 1),
 ('Python for Data Science', '9781119547662', 1, 2, 2),
@@ -114,25 +121,25 @@ INSERT INTO books (book_name, book_isbn, book_edition, book_publisher_id, book_a
 ('The Energy Equation', '9781119638681', 1, 1, 1),
 ('The Energy Equation', '9781119638681', 2, 1, 1);
 
-INSERT INTO loans (loan_date, customer_id, book_id, librarian_id) VALUES
-('2019-01-03 11:15:00', 1, 2, 1),
-('2019-01-03 11:15:00', 1, 2, 1),
-('2019-01-03 11:22:11', 2, 2, 1),
-('2019-01-03 11:34:34', 1, 2, 1),
-('2019-01-03 11:45:00', 3, 2, 1),
-('2019-01-03 11:45:00', 3, 20, 1),
-('2019-01-15 16:29:13', 4, 1, 2),
-('2019-01-15 16:29:13', 4, 5, 2),
-('2019-01-15 16:29:13', 4, 15, 2),
-('2019-01-15 16:32:13', 5, 10, 2),
-('2019-01-15 16:32:13', 5, 21, 2),
-('2019-01-15 16:40:13', 1, 3, 2),
-('2019-01-16 09:11:25', 6, 4, 3),
-('2019-01-16 09:13:25', 7, 5, 3),
-('2019-01-16 09:15:25', 8, 6, 3),
-('2019-01-17 10:16:25', 2, 2, 2),
-('2019-01-17 10:11:23', 3, 2, 2),
-('2019-01-17 10:11:43', 5, 2, 2),
-('2019-01-17 10:22:25', 8, 6, 2),
-('2019-01-17 10:22:25', 8, 14, 2),
-('2019-01-19 08:59:12', 9, 17, 3);
+INSERT INTO loans (loan_date, loan_is_active, customer_id, book_id, librarian_id) VALUES
+('2019-01-03 11:15:00', 1, 1, 2, 1),
+('2019-01-03 11:15:00', 1, 1, 2, 1),
+('2019-01-03 11:22:11', 1, 2, 2, 1),
+('2019-01-03 11:34:34', 1, 1, 2, 1),
+('2019-01-03 11:45:00', 1, 3, 2, 1),
+('2019-01-03 11:45:00', 1, 3, 20, 1),
+('2019-01-15 16:29:13', 1, 4, 1, 2),
+('2019-01-15 16:29:13', 1, 4, 5, 2),
+('2019-01-15 16:29:13', 1, 4, 15, 2),
+('2019-01-15 16:32:13', 1, 5, 10, 2),
+('2019-01-15 16:32:13', 1, 5, 21, 2),
+('2019-01-15 16:40:13', 1, 1, 3, 2),
+('2019-01-16 09:11:25', 1, 6, 4, 3),
+('2019-01-16 09:13:25', 1, 7, 5, 3),
+('2019-01-16 09:15:25', 1, 8, 6, 3),
+('2019-01-17 10:16:25', 1, 2, 2, 2),
+('2019-01-17 10:11:23', 1, 3, 2, 2),
+('2019-01-17 10:11:43', 1, 5, 2, 2),
+('2019-01-17 10:22:25', 1, 8, 6, 2),
+('2019-01-17 10:22:25', 1, 8, 14, 2),
+('2019-01-19 08:59:12', 1, 9, 17, 1);
