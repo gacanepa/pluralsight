@@ -1,6 +1,8 @@
-
+-- Sample library database for use with Pluralsight guide
 
 CREATE DATABASE library;
+
+USE library;
 
 CREATE TABLE IF NOT EXISTS customers (
     customer_id INT AUTO_INCREMENT,
