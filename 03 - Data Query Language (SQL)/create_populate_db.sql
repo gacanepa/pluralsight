@@ -14,28 +14,28 @@ CREATE TABLE customers (
 );
 
 DROP TABLE IF EXISTS publishers;
-CREATE TABLE IF NOT EXISTS publishers (
+CREATE TABLE publishers (
     publisher_id INT AUTO_INCREMENT,
     publisher_name VARCHAR(50) NOT NULL,
     PRIMARY KEY (publisher_id)
 );
 
 DROP TABLE IF EXISTS authors;
-CREATE TABLE IF NOT EXISTS authors (
+CREATE TABLE authors (
     author_id INT AUTO_INCREMENT,
     author_name VARCHAR(50) NOT NULL,
     PRIMARY KEY (author_id)
 );
 
 DROP TABLE IF EXISTS librarians;
-CREATE TABLE IF NOT EXISTS librarians (
+CREATE TABLE librarians (
     librarian_id INT AUTO_INCREMENT,
     librarian_name VARCHAR(50),
     PRIMARY KEY (librarian_id)
 );
 
 DROP TABLE IF EXISTS books;
-CREATE TABLE IF NOT EXISTS books (
+CREATE TABLE books (
     book_id INT AUTO_INCREMENT,
     book_name VARCHAR(50) NOT NULL,
     book_isbn VARCHAR(20) NOT NULL,
@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS books (
 );
 
 DROP TABLE IF EXISTS loans;
-CREATE TABLE IF NOT EXISTS loans (
+CREATE TABLE loans (
     loan_date DATETIME NOT NULL,
     loan_is_active BOOLEAN NOT NULL,
     customer_id INT,
