@@ -35,6 +35,7 @@
 
 - [Using Math and Statistical Functions in Microsoft Excel](https://app.pluralsight.com/guides/using-math-and-statistical-functions-in-microsoft-excel)
 - [Getting Started with Visual Basic for Applications in Microsoft Excel](https://app.pluralsight.com/guides/getting-started-with-visual-basic-for-applications-in-microsoft-excel)
+- [Building One- and Two-variable Data Tables in Microsoft Excel](https://app.pluralsight.com/guides/building-one-and-two-variable-data-tables-in-microsoft-excel)
 
 ## Misc
 
