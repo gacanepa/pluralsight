@@ -2,7 +2,7 @@
 
 ## Linux System Administration
 
-- [Linux Command Line Fundamentals](https://app.pluralsight.com/guides/user-and-group-management-linux)
+- [Linux Command Line Fundamentals](https://www.pluralsight.com/guides/linux-command-line-fundamentals)
 - [User and Group Management in Linux](https://www.pluralsight.com/guides/user-and-group-management-linux)
 - [Getting Started with User Management for Linux Administration](https://app.pluralsight.com/guides/getting-started-with-user-management-linux-admin)
 - [Linux Permissions](https://app.pluralsight.com/guides/linux-permissions)
