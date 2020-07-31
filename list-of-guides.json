@@ -1,0 +1,68 @@
+[
+	{
+		"title": "Linux Command Line Fundamentals",
+		"url": "https://www.pluralsight.com/guides/linux-command-line-fundamentals",
+		"publishDate": "2018-06-23",
+		"intro": "The commands in this section will help sysadmins get to know the systems they are responsible for like the back of their hands."
+	},
+	{
+		"title": "User and Group Management in Linux",
+		"url": "https://www.pluralsight.com/guides/user-and-group-management-linux",
+		"publishDate": "2018-06-30",
+		"intro": "Since Linux is a multi-user operating system, several people may be logged in and actively working on a given machine at the same time. Security-wise, it is never a good idea to allow users to share the credentials of the same account. In fact, best practices dictate the use of as many user accounts as people needing access to the machine. At the same time, it is to be expected that two or more users may need to share access to certain system resources, such as directories and files. User and group management in Linux allows us to accomplish both objectives."
+	},
+	{
+		"title": "Getting Started with User Management for Linux Administration",
+		"url": "https://www.pluralsight.com/guides/getting-started-with-user-management-linux-admin",
+		"publishDate": "2018-07-30",
+		"intro": "For additonal context to set up your workspace, please view the previous guide in this series: User and Group Management in Linux."
+	},
+	{
+		"title": "Linux Permissions",
+		"url": "https://www.pluralsight.com/guides/linux-permissions",
+		"publishDate": "2018-08-13",
+		"intro": "Every file, directory, and other system objects in Linux are assigned an owner and a group. This is the most basic, yet essential, part of system security that protects users from each other. Owners, users belonging to a group, and all others may be granted different types of access to read from, write to, or execute files. This is generally referred to as file permissions in Linux."
+	},
+	{
+		"title": "Linux Processes - Part 1",
+		"url": "https://www.pluralsight.com/guides/linux-processes-part-1",
+		"publishDate": "2018-08-13",
+		"intro": "Every program that runs on a Linux system is managed as a process. As such, it is started, executed, and eventually terminates or continues running in the background. In this last case, it is often referred to as a daemon or system service. This cycle is automatically managed by the kernel, without need for user intervention under normal circumstances. However, a process may require action on our part if it is not behaving as expected, if it needs to be restarted after changes have been made to its configuration, or when we need to modify the system resources assigned to it before or during its execution."
+	},
+	{
+		"title": "Linux Processes - Part 2",
+		"url": "https://www.pluralsight.com/guides/linux-processes-part-2",
+		"publishDate": "2019-09-06",
+		"intro": "Given the parent/child relationship between processes, it is often necessary to visualize a hierarchical list of processes in the form of a tree. To do this, we will use a tool called pstree."
+	},
+	{
+		"title": "Shell Scripting With Bash For Linux Administration - Part 1",
+		"url": "https://www.pluralsight.com/guides/shell-scripting-with-bash-for-linux-administration-part-1",
+		"publishDate": "2018-09-05",
+		"intro": "Shell scripts are plain text files that contain a sequence of commands that are run by a shell, one after another. Bash is the default shell in most modern Linux distributions and we will leverage its programming capabilities to create simple scripts. As we gain experience, we can use what we have learned to develop more robust programs."
+	},
+	{
+		"title": "Shell Scripting With Bash For Linux Administration - Part 2",
+		"url": "https://www.pluralsight.com/guides/shell-scripting-with-bash-for-linux-administration-part-2",
+		"publishDate": "2018-09-05",
+		"intro": "When you need to execute different series of commands depending on a condition, the shell provides a standard if/elif/else construct, similar to most programming languages."
+	},
+	{
+		"title": "Using Math and Statistical Functions in Microsoft Excel",
+		"url": "https://www.pluralsight.com/guides/using-math-and-statistical-functions-in-microsoft-excel",
+		"publishDate": "2020-01-28",
+		"intro": "For many years, Microsoft Excel has been the de facto spreadsheet tool for all kinds of applications used to present and chart data. From inventory and project management to financial budgeting and forecasting, home users and professionals from all industries have used Excel extensively to accomplish their goals. Beyond the basic math and statistical operations (addition, subtraction, multiplication, division, average, and count, to name a few) in Excel, there are also several built-in, lesser-known functions that can make it easier to summarize and organize data. "
+	},
+	{
+		"title": "Getting Started with Visual Basic for Applications in Microsoft Excel",
+		"url": "https://www.pluralsight.com/guides/getting-started-with-visual-basic-for-applications-in-microsoft-excel",
+		"publishDate": "2020-05-17",
+		"intro": "Although Microsoft Excel is best known for creating tables and plotting data, there is much more to it than that. Beyond the usual budget tables and sales estimate charts, Microsoft's Visual Basic for Applications (VBA) allows anyone with only basic or even no programming skills to build robust complements to automate routine responsibilities. Be it applying complex formatting to cells, manipulating values, or anything in between (or beyond), VBA is the tool for the job. This Guide will explain how to perform these operations with the click of a button or the press of a combination of keys. Thus, you will not only save time but also reduce the likelihood of human error when carrying out repetitive tasks."
+	},
+	{
+		"title": "Building One- and Two-variable Data Tables in Microsoft Excel",
+		"url": "https://www.pluralsight.com/guides/building-one-and-two-variable-data-tables-in-microsoft-excel",
+		"publishDate": "2020-07-15",
+		"intro": "Data tables in Microsoft Excel allow experimenting with different input values and observing how they affect results in a simulation without recreating calculations. They can be used not only in personal applications (such as calculating monthly payments based on changing interest rates and different loan amounts), but also in any scenario that involves a what-if or sensitivity analysis. Said another way, single- and multi-variable data tables are useful tools to examine how one or more sets of alternatives impact a given scenario."
+	}
+]
