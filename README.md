@@ -40,3 +40,4 @@
 ## Misc
 
 - [Create a Git Repository and Branching Code](https://app.pluralsight.com/guides/create-git-repository-branching-code)
+- [Passing State of Parent to Child Component as Props](https://www.pluralsight.com/guides/passing-state-of-parent-to-child-component-as-props)
